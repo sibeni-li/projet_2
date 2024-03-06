@@ -9,6 +9,35 @@
     --filter-bg-color: #DEEBFF;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 61px;
+    height: 19px;
+    padding: 30px 50px 30px 0;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 68px;
+    width: 344px;
+    height: 35px;
+    
+}
+
+.menu-nav :hover {
+    color: var(--main-color);
+    text-decoration: overline;
+    text-decoration-color: var(--main-color);
+    text-decoration-thickness: 2px;
+}
+
 .fa-solid {
     color: var(--main-color);
 }
@@ -58,7 +87,7 @@ a {
     color: var(--main-bg-color)
 }
 
-/****** Hebergements And Populaires ***********/
+/****** Hebergeme   nts And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
