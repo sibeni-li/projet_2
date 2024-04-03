@@ -165,11 +165,7 @@ input::placeholder {
     font-size: 18px;
 }
 
-.filterbar-filters {
-    display: flex;
-    gap: 20px;
-}
-
+.filterbar-filters,
 .filter-div {
     display: flex;
     gap: 20px;
@@ -227,10 +223,6 @@ input::placeholder {
 }
 
 /****** Hebergements ***********/
-.hebergements-link {
-    width: 33%;
-}
-
 .hebergements {
     width: 65%;
 }
@@ -238,6 +230,10 @@ input::placeholder {
 .hebergements .hebergements-cards {
     display: flex;
     gap: 30px;
+}
+
+.hebergements-link {
+    width: 33%;
 }
 
 .hebergements-cards .card {
@@ -458,8 +454,8 @@ ul {
         margin: 0;
     }
     
-    .main-container{
-    padding: 0px;
+    .main-container {
+        padding: 0px;
     }
 
     nav {
